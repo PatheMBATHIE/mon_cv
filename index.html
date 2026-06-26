@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>monCV</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400..700&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <button type="button" id="hamburgerBtn" class="hamburger-btn" aria-label="Ouvrir le menu">
+    <span></span>
+    <span></span>
+    <span></span>
+</button>
+    <nav id="menu_inter">
+        <a href="#infoPerso" class="menu" id="tete">En-tête</a>
+        <a href="#about" class="menu" id="presen">Présentation</a>
+        <a href="#formation" class="menu" id="forma">Formation</a>
+        <a href="#competences" class="menu" id="present">Competences</a>
+        <a href="#experiences " class="menu" id="experience">Experiences</a>
+        <a href="#projet_realises" class="menu" id="projet_real">Projets Réalisés</a>
+        <a href="#languess" class="menu" id="langues">Langues</a>
+        <a href="#centre_interet" class="menu" id="centre_inter">Centres d'intêret</a>
+        <a href="#pied_page" class="menu" id="footer">Pied de page</a>
+        <button id="boutonTheme"></button>
+    </nav>
+    
+    <header id="infoPerso">
+        <div id="premierpart">
+            <div id="div1"></div>
+            <img src="../images/pto_profil.jpeg" alt="" id="pto_profil">
+            <div id="div1"></div>
+        </div>
+        <div id="secondepart">
+        <p id="nom" class="coord"><span id="titreNom" class="titr">Nom :</span> Pathé MBATHIE,</p>
+        <p id="Etd" class="coord"><span id="titretd" class="titr">Titre : </span>Etudiant en Licence 2 Informatique,</p>
+        <p id="vil" class="coord"><span id="titrvil" class="titr">Ville :</span> Thiès, Senegal</p>
+            <h2 id="nomComplet">Pathé MBATHIE</h2>
+            <p id="objectifPro">Futur Docteur en Data, passionné de tout de ce qui peut être transformmé en chiffres interpretables, les Données en general</p>
+            <div id="coordonnees" >
+                <a id="add" class="coor" href="mailto=pathe.mbathie@univ-thies.sn"><br>pathe.mbathie@univ-thies.sn</a>
+                <p id="vill" class="coor">Thiès, Senegal</p>
+                <p id="tel" class="coor">+221 77 148 84 95</p>
+            </div>
+        </div>
+    </header>
+    <main id="principalCV">
+        <section id="about">
+            <p id="aboutt"><h2 id="titrabout" class="verscolor">Présentation</h2><span id="paraPresen" class="bordure">Étudiant en deuxième année de Licence Informatique à l'Université <br>Iba Der Thiam, curieux et rigoureux, j'aime transformer des idées <br>en choses concrètes. Ce CV interactif illustre mon apprentissage <br>du HTML, CSS et JavaScript natif.</span></p>
+        </section>
+        <section id="formation">
+            <h2 id="titrFormation" class="verscolor">Formation</h2>
+            <ul>
+                <li id="form1" class="bordure"><span id="secondAnnee" class="annee">2025 – 2026, en cours</span><br>Deuxième année de la Licence Informatiqu à l'université Iba Der Thiam de Thies</li><br>
+                <li id="form2" class="bordure"><span id="premiereAnnee" class="annee">2024 – 2025</span><br>Première année de la Licence Informatique à l'université Iba Der Thiam de Thies avec la mention BIEN</li><br>
+                <li id="form3" class="bordure"><span id="bacAnnee" class="annee">2024</span><br>Baccalauréat scientifique au Lycée Valdiodio Ndiaye de Kaolack</li>
+            </ul>
+        </section>
+        <section id="competences">
+            <h2 id="titrCompetence" class="verscolor">Mes Competences : Ce que je manipule</h2>
+            <div id="Skills">
+                <div id="hardSkills">
+                    <ul class="skills-list">
+                        <li>
+                            <div class="skill_info">
+                                <span class="skill_name">Bureautique</span>
+                                <span class="skill_percentage">85%</span>
+                            </div>
+                            <div class="progress_bar_container">
+                                <div id="barbure" class="progress_bar" data-pourcent="85"></div>
+                            </div>
+                        </li>
+                        
+                        <li>
+                            <div class="skill_info">
+                                <span class="skill_name">Langage C</span>
+                                <span class="skill_percentage">80%</span>
+                            </div>
+                            <div class="progress_bar_container">
+                                <div id="barc" class="progress_bar" data-pourcent="80"></div>
+                            </div>
+                        </li>
+                        
+                        <li>
+                            <div class="skill_info">
+                                <span class="skill_name">HTML5</span>
+                                <span class="skill_percentage">75%</span>
+                            </div>
+                            <div class="progress_bar_container">
+                                <div id="barhtml" class="progress_bar" data-pourcent="75"></div>
+                            </div>
+                        </li>
+                        
+                        <li>
+                            <div class="skill_info">
+                                <span class="skill_name">Infographie</span>
+                                <span class="skill_percentage">75%</span>
+                            </div>
+                            <div class="progress_bar_container">
+                                <div id="barinf" class="progress_bar" data-pourcent="75"></div>
+                            </div>
+                        </li>
+                        
+                        <li>
+                            <div class="skill_info">
+                                <span class="skill_name">CSS3</span>
+                                <span class="skill_percentage">70%</span>
+                            </div>
+                            <div class="progress_bar_container">
+                                <div id="barcss" class="progress_bar" data-pourcent="70"></div>
+                            </div>
+                        </li>
+                        
+                        <li>
+                            <div class="skill_info">
+                                <span class="skill_name">SQL</span>
+                                <span class="skill_percentage">55%</span>
+                            </div>
+                            <div class="progress_bar_container">
+                                <div id="barsql" class="progress_bar" data-pourcent="55"></div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="skill_info">
+                                <span class="skill_name">JavaScript (Vanilla)</span>
+                                <span class="skill_percentage">45%</span>
+                            </div>
+                            <div class="progress_bar_container">
+                                <div id="barjs" class="progress_bar" data-pourcent="45"></div>
+                            </div>
+                        </li>
+                        
+                        
+                    </ul>
+                </div> 
+                <div id="softSkills">
+                    <p id="sSkills">
+                        Curiosité<br>
+                        Travail d'équipe<br>
+                        Rigueur<br>Autonomie<br>
+                        Résolution de problèmes Complexes
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="experiences">
+            <h2 id="titrexperience" class="verscolor">Experiences</h2>
+            <div id="lesExp">
+                <div id="exp1">
+                    <p id="expe1">
+                            <span class="exp"><h3>Surperviseur de chantier</h3><span id="periode1" class="periode">(Périodes de vacances 2022 – 2025)</span></span><br> 
+                            Suivi opérationnel : Contrôle quotidien de l'avancement des <br>travaux et respect des délais d'exécution. <br> 
+                            Gestion logistique : Supervision de la réception des matériaux, <br>vérification des quantités livrées et gestion des stocks sur site.
+                    </p>
+                </div>
+                    <div id="exp2">
+                        <p id="expe2">
+                            <span class="exp"><h3>Apprenti en Mécanique Automobile</h3><span id="periode2" class="periode">(Période de vacances 2021)</span></span><br> 
+                            Initiation technique : Assistance aux opérations de maintenance courante et diagnostic de premier niveau. <br>
+                            Apprentissage : Étude du fonctionnement des moteurs et des systèmes mécaniques de base.
+                        </p>
+                    </div>
+                    <div id="exp3">
+                        <p id="expe3">
+                            <span class="exp"><h3>Apprenti Menuisier Métallique</h3><span id="periode3" class="periode">(Période de vacances 2020)</span></span><br> 
+                            Fabrication : Aide à la découpe, au façonnage et à l'assemblage de structures métalliques. <br>
+                            Lecture technique : Initiation à la lecture de plans et utilisation d'outillages spécialisés.
+                        </p>
+                    </div>
+            </div>  
+        </section>
+        <section id="projet_realises">
+            <h2 id="titrprojet" class="verscolor">Projets Réalisés</h2>
+            <div id="projetReal">
+                <div id="projet1">
+                    <h4 id="titrPro1" class="prog">Projet d'Initiation</h4>
+                    <p id="descriptionPro1" class="prog"> <span id="paragraphePro1">C'était mon projet d'initiation au HTML et CSS afin de fixer les idées ainsi que les bases de création de pages web statique. C'est un projet que j'ai beaucoup consacré de mon temps et d'energie pour au final explorer le develeoppement web.</span></p>
+                </div>
+                <div id="projet2">
+                    <h4 id="titrPro2" class="prog">Système RAMA : Plateforme de gestion (Projet Académique Collaboratif)</h4>
+                        <p id="descriptionPro2">
+                            <span id="paragraphePro2" class="prog">Développement en équipe d’un outil de pilotage administratif (gestion des rôles, suivi des tâches et modules de feedback). Contribution à l'architecture logique et à l'interface utilisateur pour optimiser la coordination entre les différents services. Application de suivi de bus (Projet Personnel en cours de R&D). Travaux de recherche sur l'implémentation de la géolocalisation en temps réel appliquée aux transports publics.</span></p>
+                </div>
+                <div id="projet3">
+                    <h4 id="titrPro3" class="prog">SGRDMS : Système Informatisé de Gestion des Rendez-Vous et des Dossiers Médicaux : Cas du Centre de Santé « LE TROPICAL »</h4>
+                    <p id="descriptionPro3" class="prog"> <span id="paragraphePro3">Le projet consiste à concevoir et développer une application web dynamique et sécurisée pour automatiser et optimiser la gestion quotidienne du Centre de Santé Le Tropical. SGRDMS est développé pour informatiser l'ensemble des activités cliniques, administratives et financières du Centre de Santé « LE TROPICAL ». Grâce à un cloisonnement sécurisé par profil (Agent, Médecin, Patient), elle centralise les données dans un Dossier Médical Unique tout en automatisant la gestion de la file d'attente et de la facturation. Enfin, elle intègre des outils modernes indispensables au génie logiciel, tels que le support des téléconsultations et le contrôle en temps réel des interactions médicamenteuses risquées.</span></p>
+                </div>
+                <div id="dernier"><hr>
+                    <p class="prog"><span id="fermer">“</span>J'ai aussi d'autres projets d'interets personnels qui sont en cours de developpement comme <span id="prosimpa">SIMPA(--)</span> et <span id="prowiiri">Wiiri (--)</span> et plein d'autres en têtes que je compte mettre en place dans le futur <span id="souhait">S'il plaît à DIEU</span><span id="ouvrir">’’</span></p>
+                </div>
+            </div>
+        </section>
+        <section id="languess">
+            <h2 id="titrlangues" class="verscolor">Langues Parlées</h2>
+                <div id="bloclang">
+                    <div id="lang1" class="bordure">
+                        <h4 id="titrlang1">Wolof</h4>
+                        <span id="niveau1">Langue Maternelle</span>
+                        <div class="pastilles">
+                            <span id="pas1" class="pastille"></span>
+                            <span id="pas2" class="pastille"></span>
+                            <span id="pas3" class="pastille"></span>
+                            <span id="pas4" class="pastille"></span>
+                        </div>
+                    </div>
+                    <div id="lang2" class="bordure">
+                        <h4 id="titrlang2">Français</h4>
+                        <span id="niveau2">Niveau Autonome</span>
+                        <div class="pastilles">
+                            <span id="pas5" class="pastille"></span>
+                            <span id="pas6" class="pastille"></span>
+                            <span id="pas7" class="pastille"></span>
+                            <span id="pas8" class="pastille"></span>
+                        </div>
+                    </div>
+                    <div id="lang3" class="bordure">
+                        <h4 id="titrlang3">Anglais</h4>
+                        <span id="niveau3">Niveau Intermediare</span>
+                        <div class="pastilles">
+                            <span id="pas11" class="pastille"></span>
+                            <span id="pas12" class="pastille"></span>
+                            <span id="pas13" class="pastille"></span>
+                            <span id="pas14" class="pastille"></span>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <section id="centre_interet">
+            <h2 id="titrcentreInteret" class="verscolor">Centres d'Intêret : En dehors du code</h2>
+            <div id="centre_interetTot">   
+                <p id="titrcentr1" class="bordure">Création de contenu : Chaîne "Tech Autour"</p>
+                <p id="titrcentr2" class="bordure">Vieille technologique</p>
+                <p id="titrcentr3" class="bordure">Infographie</p>
+                <p id="titrcentr4" class="bordure">Documentation</p>
+                <p id="titrcentr5" class="bordure">Méditation</p>
+                <p id="titrcentr6" class="bordure">Football</p>
+            </div>
+        </section><hr>
+        <section id="formulaire">
+            <h3 id="libre" class="verscolor">Remplissez le formulaire ci-dessous pour me contacter</h3>
+
+            <form action="#" method="post" id="formulaire-contact">
+
+                <label for="nomComplet" id="caseNom" class="verscolor">Nom complet</label>
+                <input type="text" id="nomComplet" class="case" name="nomCompletForm" required > <br>
+
+                <label for="email" id="caseEmail" class="verscolor">Email Valide</label>
+                <input type="email" id="email" class="case" name="email" placeholder="pathe.mbathie3@gmail.com" required ><br>
+
+                <label for="message" id="caseMes" class="verscolor">Message (détaillé)</label> 
+                <textarea id="message" class="case" name="message" rows="5" required ></textarea> <br>
+
+                <button type="submit" id="submit" class="case">Envoyer</button>
+            </form>
+        </section>
+    </main>
+    <footer id="pied_page">
+        <h4 class="nomfooter">Pathé Mbathie</h4>
+        <p id="copy" class="nomfooter">@ 2026 - Tous droits réservés</p><br>
+        <a href="https://www.youtube.com/@TechAutour?sub_confirmation=1" target="_blank"><img id="youtube" class="imageVers" src="../images/logo_youtube-removebg-preview.png" alt=""></a>
+        <a href="https://github.com/PatheMBATHIE" target="_blank"><img id="github" class="imageVers" src="../images/logo_github.jpeg" alt=""></a>
+        <a href="https://vm.tiktok.com/ZN92uGF3RnhYs-tC2Ec/" target="_blank"><img id="tiktok" class="imageVers" src="../images/logo_tiktok.jpeg" alt=""></a>
+        <p id="right" class="nomfooter"><br>Conçu et codé à la main</p>
+    </footer>
+    <button type="button" id="boutonHaut" aria-label="Retour en haut">↑</button>
+<script src="../js/script.js"></script>
+</body>
+</html>
